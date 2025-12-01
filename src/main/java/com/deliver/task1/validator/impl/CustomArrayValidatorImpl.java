@@ -40,24 +40,13 @@ public class CustomArrayValidatorImpl implements CustomArrayValidator {
     }
 
     @Override
-    public boolean isValidBounds(int index, int arrayLength) {
-        logger.debug("Started validating of arrays bounds");
-        if (index >= arrayLength || index < 0) {
-            logger.debug("Index out of bounds {}", index);
-            return false;
-        }
-        logger.debug("Success on validation an array at index {}", index);
-        return true;
-    }
-
-    @Override
-    public boolean isValidNonNegativeSize(int size) {
-        logger.debug("Started validating of non-negative array size");
+    public boolean isValidSize(int size) {
+        logger.debug("Started validating of array size");
         if (size < 0) {
             logger.debug("The size is negative {}", size);
             return false;
         }
-        logger.debug("Success on validation of non-negative array size");
+        logger.debug("Success on validation of array size");
         return true;
     }
 }

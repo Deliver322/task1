@@ -7,5 +7,5 @@ public interface CustomArrayFactory {
 
     CustomArray create(int id, int[] array) throws CustomException;
 
-    CustomArray createFromFile();
+    CustomArray createFromFile(int id) throws CustomException;
 }

@@ -7,6 +7,5 @@ public interface CustomArrayValidator {
 
     boolean isValidCustomArray(CustomArray customArray);
     boolean isValidArray(int[] array);
-    boolean isValidBounds(int index, int arrayLength) throws CustomException;
-    boolean isValidNonNegativeSize(int size) throws CustomException;
+    boolean isValidSize(int size) throws CustomException;
 }

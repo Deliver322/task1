@@ -1,6 +1,7 @@
 package com.deliver.task1.service.impl;
 
 import com.deliver.task1.entity.CustomArray;
+import com.deliver.task1.exeption.CustomException;
 import com.deliver.task1.service.CustomArraySortService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,7 +11,7 @@ public class CustomArraySortServiceImpl implements CustomArraySortService {
     private final Logger logger = LogManager.getLogger();
 
     @Override
-    public CustomArray bubbleSort(CustomArray customArray) {
+    public CustomArray bubbleSort(CustomArray customArray) throws CustomException {
         logger.debug("Initiating Bubble Sort on array");
         int[] array = customArray.getArray();
         for (int i = 0; i < array.length - 1; i++) {

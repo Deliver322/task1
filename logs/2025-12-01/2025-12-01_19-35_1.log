@@ -1,0 +1,11 @@
+19:12:42.059 [main] INFO  com.deliver.task1.entity.CustomArray - Success on getting value from index: 0 
+19:12:42.068 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
+19:12:42.068 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
+19:12:42.073 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
+19:12:42.074 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
+19:12:42.074 [main] DEBUG com.deliver.task1.entity.CustomArray - Setting value from index: 0 
+19:12:42.074 [main] INFO  com.deliver.task1.entity.CustomArray - Success on setting value from index: 0 
+19:12:42.074 [main] DEBUG com.deliver.task1.entity.CustomArray - Getting value from index: 0 
+19:12:42.074 [main] INFO  com.deliver.task1.entity.CustomArray - Success on getting value from index: 0 
+19:15:03.098 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
+19:15:03.100 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 

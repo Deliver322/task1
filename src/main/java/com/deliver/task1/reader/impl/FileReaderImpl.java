@@ -14,7 +14,7 @@ import java.util.List;
 public class FileReaderImpl implements FileReader {
 
     private static final Logger logger = LogManager.getLogger();
-    private static final String FILE_URL = "numbers.txt";
+    private static final String FILE_URL = "data/numbers.txt";
 
     @Override
     public List<String> readLine() throws CustomException {

@@ -39,8 +39,12 @@ public class CustomArray {
         return Arrays.copyOf(array, array.length);
     }
 
-    public void setArray(int[] array) {
-        this.array = array;
+    public void setArray(int[] array) throws CustomException {
+        if (array != null) {
+            this.array = Arrays.copyOf(array, array.length);
+        } else {
+            throw new CustomException("Array is null");
+        }
     }
 
     public int getValue(int index) throws CustomException {
@@ -65,6 +69,7 @@ public class CustomArray {
 
     @Override
     public final boolean equals(Object o) {
+        logger.debug("Checking CustomArray equals method");
         if (!(o instanceof CustomArray myArray)) return false;
 
         return id == myArray.id && Arrays.equals(array, myArray.array);
@@ -72,6 +77,7 @@ public class CustomArray {
 
     @Override
     public int hashCode() {
+        logger.debug("HashCode has been calculated ");
         int result = id;
         result = 31 * result + Arrays.hashCode(array);
         return result;
