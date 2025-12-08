@@ -38,15 +38,4 @@ public class CustomArrayValidatorImpl implements CustomArrayValidator {
         logger.debug("Success on validation an array");
         return true;
     }
-
-    @Override
-    public boolean isValidSize(int size) {
-        logger.debug("Started validating of array size");
-        if (size < 0) {
-            logger.debug("The size is negative {}", size);
-            return false;
-        }
-        logger.debug("Success on validation of array size");
-        return true;
-    }
 }

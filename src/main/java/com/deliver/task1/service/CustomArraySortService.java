@@ -5,5 +5,5 @@ import com.deliver.task1.exeption.CustomException;
 
 public interface CustomArraySortService {
     CustomArray bubbleSort(CustomArray customArray) throws CustomException;
-    CustomArray quickSort(CustomArray customArray);
+    CustomArray quickSort(CustomArray customArray) throws CustomException;
 }

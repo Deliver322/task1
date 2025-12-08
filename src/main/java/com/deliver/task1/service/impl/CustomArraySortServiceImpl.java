@@ -13,9 +13,12 @@ public class CustomArraySortServiceImpl implements CustomArraySortService {
     @Override
     public CustomArray bubbleSort(CustomArray customArray) throws CustomException {
         logger.debug("Initiating Bubble Sort on array");
+        if (customArray == null || customArray.getArray() == null) {
+            throw new CustomException("empty array");
+        }
         int[] array = customArray.getArray();
         for (int i = 0; i < array.length - 1; i++) {
-            for (int j = 0; j < array.length - i; j++) {
+            for (int j = 0; j < array.length - i - 1; j++) {
                 logger.trace("Comparing old Value {} with new value {}", array[j], array[j + 1]);
                 if (array[j] > array[j + 1]) {
                     int temp = array[j];
@@ -31,8 +34,11 @@ public class CustomArraySortServiceImpl implements CustomArraySortService {
     }
 
     @Override
-    public CustomArray quickSort(CustomArray customArray) {
+    public CustomArray quickSort(CustomArray customArray) throws CustomException {
         logger.debug("Initiating Quick Sort on array");
+        if (customArray == null || customArray.getArray() == null) {
+            throw new CustomException("empty array");
+        }
         quickSort(customArray.getArray(), 0, customArray.getArray().length - 1);
         logger.info("Quick Sort completed");
         return customArray;

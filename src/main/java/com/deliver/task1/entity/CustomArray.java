@@ -8,9 +8,10 @@ import org.apache.logging.log4j.Logger;
 import java.util.Arrays;
 
 public class CustomArray {
+    private static final Logger logger = LogManager.getLogger();
     private int id;
     private int[] array;
-    private static final Logger logger = LogManager.getLogger();
+
 
     public CustomArray(int id, int[] array) throws CustomException {
         logger.debug("Creating MyArray with id: {} ", id);
@@ -68,7 +69,7 @@ public class CustomArray {
     }
 
     @Override
-    public final boolean equals(Object o) {
+    public boolean equals(Object o) {
         logger.debug("Checking CustomArray equals method");
         if (!(o instanceof CustomArray myArray)) return false;
 

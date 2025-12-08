@@ -1,6 +1,7 @@
 package com.deliver.task1.service.impl;
 
 import com.deliver.task1.entity.CustomArray;
+import com.deliver.task1.exeption.CustomException;
 import com.deliver.task1.service.CustomArrayCalculateService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,7 +11,10 @@ public class CustomArrayCalculateServiceImpl implements CustomArrayCalculateServ
     private static final Logger logger = LogManager.getLogger();
 
     @Override
-    public int findMax(CustomArray customArray) {
+    public int findMax(CustomArray customArray) throws CustomException {
+        if (customArray == null || customArray.getArray() == null) {
+            throw new CustomException("empty array");
+        }
         logger.debug("Finding max in customArray");
         int max = customArray.getArray()[0];
         logger.trace("Initial max value is {}", max);
@@ -26,8 +30,11 @@ public class CustomArrayCalculateServiceImpl implements CustomArrayCalculateServ
     }
 
     @Override
-    public int findMin(CustomArray customArray) {
+    public int findMin(CustomArray customArray) throws CustomException {
         logger.debug("Finding min in customArray");
+        if (customArray == null || customArray.getArray() == null) {
+            throw new CustomException("empty array");
+        }
         int min = customArray.getArray()[0];
         logger.trace("Initial min value is {}", min);
         for (int i = 1; i < customArray.getArray().length; i++) {
@@ -42,8 +49,11 @@ public class CustomArrayCalculateServiceImpl implements CustomArrayCalculateServ
     }
 
     @Override
-    public int sum(CustomArray customArray) {
+    public int sum(CustomArray customArray) throws CustomException {
         logger.debug("Finding sum of elements in array");
+        if (customArray == null || customArray.getArray() == null) {
+            throw new CustomException("empty array");
+        }
         int sum = 0;
         for (int i = 0; i < customArray.getArray().length; i++) {
             int value = customArray.getArray()[i];
