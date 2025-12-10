@@ -1,6 +1,6 @@
 15:50:53.487 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 1 and given array 
-15:50:53.492 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
-15:50:53.492 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
+15:50:53.492 [main] DEBUG com.deliver.task2.entity.CustomArray - Creating MyArray with id: 1
+15:50:53.492 [main] INFO  com.deliver.task2.entity.CustomArray - MyArray created with id: 1
 15:50:53.501 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 1 and given array 
 15:50:53.502 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 1 and given array 
 16:03:07.007 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 10

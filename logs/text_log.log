@@ -1,5 +1,9 @@
-16:04:56.414 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: x12z
-16:04:56.416 [main] WARN  deliver.task1.parser.impl.RowDataParserImpl - Non valid input line: x12z 
-16:04:56.416 [main] ERROR deliver.task1.parser.impl.RowDataParserImpl - ArrayData is empty or invalid
-16:04:56.418 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 1 and given array 
-16:04:56.419 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 1 and given array 
+16:17:58.151 [main] INFO  com.deliver.task2.entity.CustomArray - Success on getting value from index: 0 
+16:17:58.157 [main] DEBUG com.deliver.task2.entity.CustomArray - Creating MyArray with id: 1 
+16:17:58.157 [main] INFO  com.deliver.task2.entity.CustomArray - MyArray created with id: 1 
+16:17:58.158 [main] DEBUG com.deliver.task2.entity.CustomArray - Creating MyArray with id: 1 
+16:17:58.159 [main] INFO  com.deliver.task2.entity.CustomArray - MyArray created with id: 1 
+16:17:58.159 [main] DEBUG com.deliver.task2.entity.CustomArray - Setting value from index: 0 
+16:17:58.159 [main] INFO  com.deliver.task2.entity.CustomArray - Success on setting value from index: 0 
+16:17:58.159 [main] DEBUG com.deliver.task2.entity.CustomArray - Getting value from index: 0 
+16:17:58.159 [main] INFO  com.deliver.task2.entity.CustomArray - Success on getting value from index: 0 

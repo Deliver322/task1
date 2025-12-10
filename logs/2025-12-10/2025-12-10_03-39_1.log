@@ -1,11 +1,11 @@
-19:41:48.762 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
-19:41:48.768 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
-19:41:48.769 [main] DEBUG com.deliver.task1.entity.CustomArray - Setting value from index: 0 
-19:41:48.769 [main] INFO  com.deliver.task1.entity.CustomArray - Success on setting value from index: 0 
-19:41:48.769 [main] DEBUG com.deliver.task1.entity.CustomArray - Getting value from index: 0 
-19:41:48.769 [main] INFO  com.deliver.task1.entity.CustomArray - Success on getting value from index: 0 
-03:39:03.252 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
-03:39:03.253 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
+19:41:48.762 [main] DEBUG com.deliver.task2.entity.CustomArray - Creating MyArray with id: 1
+19:41:48.768 [main] INFO  com.deliver.task2.entity.CustomArray - MyArray created with id: 1
+19:41:48.769 [main] DEBUG com.deliver.task2.entity.CustomArray - Setting value from index: 0
+19:41:48.769 [main] INFO  com.deliver.task2.entity.CustomArray - Success on setting value from index: 0
+19:41:48.769 [main] DEBUG com.deliver.task2.entity.CustomArray - Getting value from index: 0
+19:41:48.769 [main] INFO  com.deliver.task2.entity.CustomArray - Success on getting value from index: 0
+03:39:03.252 [main] DEBUG com.deliver.task2.entity.CustomArray - Creating MyArray with id: 1
+03:39:03.253 [main] INFO  com.deliver.task2.entity.CustomArray - MyArray created with id: 1
 03:39:03.256 [main] DEBUG deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Finding max in customArray
 03:39:03.256 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Initial max value is 12
 03:39:03.256 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing max 12 with value 22

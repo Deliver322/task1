@@ -2,8 +2,8 @@
 03:51:46.243 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 77 and 98
 03:51:46.243 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Partition completed
 03:51:46.243 [main] INFO  deliver.task1.service.impl.CustomArraySortServiceImpl - Quick Sort completed
-03:56:28.143 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
-03:56:28.144 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
+03:56:28.143 [main] DEBUG com.deliver.task2.entity.CustomArray - Creating MyArray with id: 1
+03:56:28.144 [main] INFO  com.deliver.task2.entity.CustomArray - MyArray created with id: 1
 03:56:28.145 [main] DEBUG deliver.task1.service.impl.CustomArraySortServiceImpl - Initiating Quick Sort on array
 03:56:28.146 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 12 and 12
 03:56:28.146 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 22 and 22

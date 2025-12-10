@@ -1,6 +1,6 @@
 03:39:03.275 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Sum is completed: 332
-03:47:27.960 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
-03:47:27.961 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
+03:47:27.960 [main] DEBUG com.deliver.task2.entity.CustomArray - Creating MyArray with id: 1
+03:47:27.961 [main] INFO  com.deliver.task2.entity.CustomArray - MyArray created with id: 1
 03:47:27.963 [main] DEBUG deliver.task1.service.impl.CustomArraySortServiceImpl - Initiating Bubble Sort on array
 03:47:27.963 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 12 with new value 22
 03:47:27.963 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 22 with new value -11
