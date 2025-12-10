@@ -3,6 +3,8 @@ package com.deliver.task2.factory.impl;
 import com.deliver.task2.entity.CustomArray;
 import com.deliver.task2.exeption.CustomException;
 import com.deliver.task2.factory.CustomArrayFactory;
+import com.deliver.task2.observer.CustomArrayObserver;
+import com.deliver.task2.observer.impl.CustomArrayObserverImpl;
 import com.deliver.task2.reader.CustomFileReader;
 import com.deliver.task2.parser.RowDataParser;
 import com.deliver.task2.reader.impl.CustomFileReaderImpl;
@@ -28,10 +30,12 @@ public class CustomArrayFactoryImpl implements CustomArrayFactory {
     @Override
     public CustomArray create(int id, int[] array) throws CustomException {
         logger.debug("Creating CustomArray with id {} and given array ", id);
-        if (array != null && array.length > 0) {
-            return new CustomArray(id, array);
+        if (array == null || array.length == 0) {
+            throw new CustomException("Array is null");
         }
-        throw new CustomException("Array is null");
+        CustomArray customArray = new CustomArray(id, array);
+        customArray.notifyObservers();
+        return customArray;
     }
 
     @Override

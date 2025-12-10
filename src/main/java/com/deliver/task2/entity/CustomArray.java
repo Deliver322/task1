@@ -2,15 +2,20 @@ package com.deliver.task2.entity;
 
 
 import com.deliver.task2.exeption.CustomException;
+import com.deliver.task2.observer.CustomArrayObservable;
+import com.deliver.task2.observer.CustomArrayObserver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
-public class CustomArray {
+public class CustomArray implements CustomArrayObservable {
     private static final Logger logger = LogManager.getLogger();
     private int id;
     private int[] array;
+    private final List<CustomArrayObserver> observers = new ArrayList<>();
 
 
     public CustomArray(int id, int[] array) throws CustomException {
@@ -46,6 +51,7 @@ public class CustomArray {
         } else {
             throw new CustomException("Array is null");
         }
+        notifyObservers();
     }
 
     public int getValue(int index) throws CustomException {
@@ -66,6 +72,8 @@ public class CustomArray {
         }
         logger.info("Success on setting value from index: {} ", index);
         array[index] = value;
+
+        notifyObservers();
     }
 
     @Override
@@ -99,5 +107,27 @@ public class CustomArray {
         sb.append(", logger=").append(logger);
         sb.append('}');
         return sb.toString();
+    }
+
+    @Override
+    public void addObserver(CustomArrayObserver newObserver) {
+        if (newObserver != null && !observers.contains(newObserver)) {
+            logger.debug("Added observer to array with ID: {}", id);
+            observers.add(newObserver);
+        }
+    }
+
+    @Override
+    public void removeObserver(CustomArrayObserver observer) {
+        observers.remove(observer);
+        logger.debug("Removed observer");
+    }
+
+    @Override
+    public void notifyObservers() {
+        for (CustomArrayObserver observer : observers) {
+            observer.onCustomArrayChanged(this);
+            logger.info("CustomArrayObserver notified");
+        }
     }
 }
