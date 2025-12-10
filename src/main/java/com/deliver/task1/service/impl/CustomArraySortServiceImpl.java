@@ -39,7 +39,9 @@ public class CustomArraySortServiceImpl implements CustomArraySortService {
         if (customArray == null || customArray.getArray() == null) {
             throw new CustomException("empty array");
         }
-        quickSort(customArray.getArray(), 0, customArray.getArray().length - 1);
+        int[] array = customArray.getArray();
+        quickSort(array, 0, array.length - 1);
+        customArray.setArray(array);
         logger.info("Quick Sort completed");
         return customArray;
     }

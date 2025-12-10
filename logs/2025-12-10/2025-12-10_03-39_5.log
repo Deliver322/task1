@@ -1,0 +1,9 @@
+03:39:03.273 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Current sum: 12 Adding 12 at index 0
+03:39:03.274 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Current sum: 34 Adding 22 at index 1
+03:39:03.274 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Current sum: 23 Adding -11 at index 2
+03:39:03.274 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Current sum: 67 Adding 44 at index 3
+03:39:03.275 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Current sum: 72 Adding 5 at index 4
+03:39:03.275 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Current sum: 128 Adding 56 at index 5
+03:39:03.275 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Current sum: 205 Adding 77 at index 6
+03:39:03.275 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Current sum: 303 Adding 98 at index 7
+03:39:03.275 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Current sum: 332 Adding 29 at index 8

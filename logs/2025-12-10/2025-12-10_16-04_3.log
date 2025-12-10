@@ -1,0 +1,10 @@
+16:04:56.401 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Finished extracting number from line 1 2 3
+16:04:56.403 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is valid: -5, 6; 7
+16:04:56.404 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Reading numbers from line -5, 6; 7
+16:04:56.404 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Extracting number from line -5, 6; 7
+16:04:56.404 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Finished extracting number from line -5, 6; 7
+16:04:56.404 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is valid: 8
+16:04:56.404 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Reading numbers from line 8
+16:04:56.404 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Extracting number from line 8
+16:04:56.404 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Finished extracting number from line 8
+16:04:56.404 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Finished reading ArrayData

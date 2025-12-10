@@ -2,6 +2,8 @@ package com.deliver.task1.parser.impl;
 
 import com.deliver.task1.exeption.CustomException;
 import com.deliver.task1.parser.RowDataParser;
+import com.deliver.task1.validator.InputNumberValidator;
+import com.deliver.task1.validator.impl.InputNumberValidatorImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,6 +15,7 @@ import java.util.regex.Pattern;
 public class RowDataParserImpl implements RowDataParser {
     private static final Logger logger = LogManager.getLogger();
     private static final String NUMBER_REGEX = "-?\\d+";
+    private final InputNumberValidator inputNumberValidator =  new InputNumberValidatorImpl();
 
     @Override
     public List<int[]> readData(List<String> stringLines) throws CustomException {
@@ -20,12 +23,17 @@ public class RowDataParserImpl implements RowDataParser {
         List<int[]> numbers = new ArrayList<>();
 
         for (String line : stringLines) {
+            if (!inputNumberValidator.isValid(line)) {
+                logger.warn("Non valid input line: {} ", line);
+                continue;
+            }
             logger.info("Reading numbers from line {}", line);
             int[] intRow = readLineInt(line);
             if (intRow.length > 0) {
                 numbers.add(intRow);
             }
         }
+
         if (numbers.isEmpty()) {
             logger.error("ArrayData is empty or invalid");
             throw new CustomException("No valid numbers found in file");

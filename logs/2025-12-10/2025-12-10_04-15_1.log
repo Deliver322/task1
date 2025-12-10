@@ -1,0 +1,11 @@
+04:05:39.593 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 12 and 12
+04:05:39.594 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 22 and 22
+04:05:39.594 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Partition completed
+04:05:39.594 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 44 and 56
+04:05:39.595 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Partition completed
+04:05:39.595 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 56 and 77
+04:05:39.595 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Partition completed
+04:05:39.595 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 77 and 98
+04:05:39.595 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Partition completed
+04:05:39.595 [main] INFO  deliver.task1.service.impl.CustomArraySortServiceImpl - Quick Sort completed
+04:14:06.851 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is valid: 1 2, -3.5; 44

@@ -1,0 +1,10 @@
+16:03:07.009 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: aaa
+16:03:07.014 [main] WARN  deliver.task1.parser.impl.RowDataParserImpl - Non valid input line: aaa 
+16:03:07.015 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: @@@
+16:03:07.015 [main] WARN  deliver.task1.parser.impl.RowDataParserImpl - Non valid input line: @@@ 
+16:03:07.015 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Reading numbers from line   
+16:03:07.015 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Extracting number from line   
+16:03:07.015 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Finished extracting number from line   
+16:03:07.016 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: x12z
+16:03:07.016 [main] WARN  deliver.task1.parser.impl.RowDataParserImpl - Non valid input line: x12z 
+16:03:07.016 [main] ERROR deliver.task1.parser.impl.RowDataParserImpl - ArrayData is empty or invalid

@@ -7,8 +7,6 @@ import com.deliver.task1.reader.CustomFileReader;
 import com.deliver.task1.parser.RowDataParser;
 import com.deliver.task1.reader.impl.CustomFileReaderImpl;
 import com.deliver.task1.parser.impl.RowDataParserImpl;
-import com.deliver.task1.validator.CustomArrayValidator;
-import com.deliver.task1.validator.impl.CustomArrayValidatorImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -20,7 +18,7 @@ public class CustomArrayFactoryImpl implements CustomArrayFactory {
     private static final Logger logger = LogManager.getLogger();
     private final CustomFileReader customFileReader;
     private final RowDataParser rowDataParser;
-    private static int id = 0;
+    private int id = 0;
 
     public CustomArrayFactoryImpl() {
         this.customFileReader = new CustomFileReaderImpl();

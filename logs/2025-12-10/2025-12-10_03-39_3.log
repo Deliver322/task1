@@ -1,0 +1,10 @@
+03:39:03.261 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing max 77 with value 98
+03:39:03.262 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - New max value is 98
+03:39:03.262 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing max 98 with value 29
+03:39:03.270 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
+03:39:03.270 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
+03:39:03.270 [main] DEBUG deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Finding min in customArray
+03:39:03.270 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Initial min value is 12
+03:39:03.270 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing min 12 with value 22
+03:39:03.270 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing min 12 with value -11
+03:39:03.270 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - New min value is -11

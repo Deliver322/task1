@@ -1,0 +1,11 @@
+03:51:46.236 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 29 and 44
+03:51:46.240 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Partition completed
+03:51:46.240 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped -11 and 12
+03:51:46.240 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 5 and 22
+03:51:46.240 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Partition completed
+03:51:46.240 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 12 and 12
+03:51:46.240 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 22 and 22
+03:51:46.240 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Partition completed
+03:51:46.240 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 44 and 56
+03:51:46.240 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Partition completed
+03:51:46.240 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 56 and 77

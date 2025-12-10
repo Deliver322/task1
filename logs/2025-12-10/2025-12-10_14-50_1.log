@@ -1,0 +1,9 @@
+04:15:52.058 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: 1 2 3z 4
+04:20:31.611 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: 1 2 3z 4
+04:20:33.992 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is valid: 1 2, -3.5; 44
+04:32:53.887 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is valid: 1 2, -3.5; 44
+04:32:53.900 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: 1 @ 2
+04:32:53.903 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Input line is null
+04:32:53.904 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: 1 2 3z 4
+04:35:11.204 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Input line is null
+14:50:51.319 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Started reading file at C:\Users\glinn\AppData\Local\Temp\tempFile9935175942413187591.txt

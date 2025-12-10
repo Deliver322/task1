@@ -1,0 +1,10 @@
+14:50:51.321 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Success on Reading file
+14:57:13.863 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Started reading file at null
+15:02:09.872 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Started reading file at C:\Users\glinn\AppData\Local\Temp\tempFile18183300106650311470.txt
+15:02:09.873 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Success on Reading file
+15:02:09.880 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Started reading file at null
+15:02:09.881 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Started reading file at   
+15:02:09.883 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Started reading file at nonExistingFile.txt
+15:02:09.883 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Success on Reading file
+15:19:29.321 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Started reading ArrayData
+15:19:29.324 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: !!!

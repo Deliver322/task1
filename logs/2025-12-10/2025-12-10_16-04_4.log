@@ -1,0 +1,10 @@
+16:04:56.404 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 100 and given array 
+16:04:56.406 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 100 
+16:04:56.406 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 100 
+16:04:56.406 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 101 and given array 
+16:04:56.406 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 101 
+16:04:56.406 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 101 
+16:04:56.406 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 102 and given array 
+16:04:56.407 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 102 
+16:04:56.407 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 102 
+16:04:56.412 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 10

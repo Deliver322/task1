@@ -1,0 +1,10 @@
+16:04:56.412 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Started reading file at C:\Users\glinn\AppData\Local\Temp\junit17027981753453140648\bad.txt
+16:04:56.414 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Success on Reading file
+16:04:56.414 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Started reading ArrayData
+16:04:56.414 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: aaa
+16:04:56.414 [main] WARN  deliver.task1.parser.impl.RowDataParserImpl - Non valid input line: aaa 
+16:04:56.414 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: @@@
+16:04:56.414 [main] WARN  deliver.task1.parser.impl.RowDataParserImpl - Non valid input line: @@@ 
+16:04:56.414 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Reading numbers from line   
+16:04:56.414 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Extracting number from line   
+16:04:56.414 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Finished extracting number from line   

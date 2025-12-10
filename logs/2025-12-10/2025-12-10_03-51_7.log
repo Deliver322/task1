@@ -1,0 +1,10 @@
+03:51:06.706 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 5 with new value 12
+03:51:06.707 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value -11 with new value 5
+03:51:06.707 [main] INFO  deliver.task1.service.impl.CustomArraySortServiceImpl - Bubble Sort completed
+03:51:46.232 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
+03:51:46.234 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
+03:51:46.236 [main] DEBUG deliver.task1.service.impl.CustomArraySortServiceImpl - Initiating Quick Sort on array
+03:51:46.236 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 12 and 12
+03:51:46.236 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 22 and 22
+03:51:46.236 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped -11 and -11
+03:51:46.236 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 5 and 44

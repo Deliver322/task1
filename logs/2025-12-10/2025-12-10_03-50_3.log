@@ -1,0 +1,9 @@
+03:50:34.637 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 12 with new value -11
+03:50:34.638 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped -11 and 12
+03:50:34.638 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 12 with new value 22
+03:50:34.638 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 22 with new value 5
+03:50:34.638 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 5 and 22
+03:50:34.638 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 22 with new value 44
+03:50:34.638 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 44 with new value 56
+03:50:34.638 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 56 with new value 77
+03:50:34.638 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 77 with new value 29

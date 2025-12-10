@@ -1,0 +1,10 @@
+16:04:56.380 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 1 and given array 
+16:04:56.384 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
+16:04:56.384 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
+16:04:56.400 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 100
+16:04:56.400 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Started reading file at C:\Users\glinn\AppData\Local\Temp\junit11609701360581154866\data.txt
+16:04:56.400 [main] INFO  deliver.task1.reader.impl.CustomFileReaderImpl - Success on Reading file
+16:04:56.400 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Started reading ArrayData
+16:04:56.401 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is valid: 1 2 3
+16:04:56.401 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Reading numbers from line 1 2 3
+16:04:56.401 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Extracting number from line 1 2 3

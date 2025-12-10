@@ -1,0 +1,10 @@
+15:20:15.817 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is not valid: 5 @ 6
+15:20:15.821 [main] WARN  deliver.task1.parser.impl.RowDataParserImpl - Non valid input line: 5 @ 6 
+15:20:15.822 [main] INFO  deliver.task1.validator.impl.InputNumberValidatorImpl - Line is valid: -1 0 2
+15:20:15.822 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Reading numbers from line -1 0 2
+15:20:15.822 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Extracting number from line -1 0 2
+15:20:15.822 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Finished extracting number from line -1 0 2
+15:20:15.822 [main] INFO  deliver.task1.parser.impl.RowDataParserImpl - Finished reading ArrayData
+15:48:20.215 [main] DEBUG deliver.task1.factory.impl.CustomArrayFactoryImpl - Creating CustomArray with id 1 and given array 
+15:48:20.217 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
+15:48:20.217 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 

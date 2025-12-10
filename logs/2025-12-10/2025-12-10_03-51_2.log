@@ -1,0 +1,9 @@
+03:51:06.695 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
+03:51:06.699 [main] DEBUG deliver.task1.service.impl.CustomArraySortServiceImpl - Initiating Bubble Sort on array
+03:51:06.699 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 12 with new value 22
+03:51:06.699 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 22 with new value -11
+03:51:06.699 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped -11 and 22
+03:51:06.700 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 22 with new value 44
+03:51:06.700 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 44 with new value 5
+03:51:06.700 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Swapped 5 and 44
+03:51:06.700 [main] TRACE deliver.task1.service.impl.CustomArraySortServiceImpl - Comparing old Value 44 with new value 56

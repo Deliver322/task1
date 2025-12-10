@@ -1,0 +1,9 @@
+03:39:03.271 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing min -11 with value 44
+03:39:03.272 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing min -11 with value 5
+03:39:03.272 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing min -11 with value 56
+03:39:03.272 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing min -11 with value 77
+03:39:03.272 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing min -11 with value 98
+03:39:03.272 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing min -11 with value 29
+03:39:03.273 [main] DEBUG com.deliver.task1.entity.CustomArray - Creating MyArray with id: 1 
+03:39:03.273 [main] INFO  com.deliver.task1.entity.CustomArray - MyArray created with id: 1 
+03:39:03.273 [main] DEBUG deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Finding sum of elements in array

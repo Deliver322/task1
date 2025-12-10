@@ -1,0 +1,9 @@
+03:39:03.256 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - New max value is 22
+03:39:03.260 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing max 22 with value -11
+03:39:03.260 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing max 22 with value 44
+03:39:03.260 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - New max value is 44
+03:39:03.260 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing max 44 with value 5
+03:39:03.260 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing max 44 with value 56
+03:39:03.260 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - New max value is 56
+03:39:03.261 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - Comparing max 56 with value 77
+03:39:03.261 [main] TRACE deliver.task1.service.impl.CustomArrayCalculateServiceImpl - New max value is 77

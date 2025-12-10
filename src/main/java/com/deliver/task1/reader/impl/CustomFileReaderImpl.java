@@ -14,15 +14,15 @@ import java.util.List;
 public class CustomFileReaderImpl implements CustomFileReader {
 
     private static final Logger logger = LogManager.getLogger();
-    private static final String FILE_URL = "data/numbers.txt";
+//    private static final String FILE_URL = "data/numbers.txt";
 
     @Override
     public List<String> readLines(String filePath) throws CustomException {
-        logger.info("Started reading file at {}", FILE_URL);
+        logger.info("Started reading file at {}", filePath);
         if (filePath == null || filePath.isBlank()) {
             throw new CustomException("File path is null or blank");
         }
-        Path path = Paths.get(FILE_URL);
+        Path path = Paths.get(filePath);
         try {
             logger.info("Success on Reading file");
             return Files.readAllLines(path);
