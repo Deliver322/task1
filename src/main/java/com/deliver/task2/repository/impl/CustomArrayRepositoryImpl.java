@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+import com.deliver.task2.specification.CustomArraySpecification;
 import com.deliver.task2.warehouse.impl.CustomArrayWarehouseImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -57,6 +58,10 @@ public class CustomArrayRepositoryImpl implements CustomArrayRepository {
         return result;
     }
 
-//    @Override
-//    public List<CustomArray> findAll(Specification specification){}
+    @Override
+    public List<CustomArray> findAll(CustomArraySpecification specification) {
+        return arraysList.stream()
+                .filter(specification::specify)
+                .toList();
+    }
 }

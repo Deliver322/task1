@@ -1,6 +1,5 @@
 package com.deliver.task2.warehouse.impl;
 
-import com.deliver.task2.entity.CustomArray;
 import com.deliver.task2.entity.CustomArrayInfo;
 import com.deliver.task2.warehouse.CustomArrayWarehouse;
 import org.apache.logging.log4j.LogManager;
